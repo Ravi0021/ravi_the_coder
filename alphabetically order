@@ -1,0 +1,9 @@
+dict={'student1':'Aman', 'student2':'Dheeraj', 'student3':'Mohit','student4':'Kanika', 'student5':'Amrita'}
+print("Given dictionary is :")
+for x in dict:
+    print(dict[x])
+list=[]
+for i,j in dict.items():
+    list.append(j)
+list.sort()
+print("Alphabetical order is : ",list)
