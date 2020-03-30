@@ -1,0 +1,18 @@
+*  *
+*  *
+****
+*  *
+*  *
+****
+*  *
+*  *
+****
+*  *
+*  *
+
+
+
+n=int(input("Enter the number of steps"))
+for i in range (0,n):
+    print("*  *\n*  *\n****")
+print("*  *\n*  *")
