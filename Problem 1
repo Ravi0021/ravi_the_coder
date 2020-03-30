@@ -1,0 +1,10 @@
+Replace all repeated occurrences with N 
+Test List : [1, 2, 3, 4, 3, 4, 8, 10, 2, 3] 
+
+list = [1, 2, 3, 4, 3, 4, 8, 10, 2, 3] 
+print("The list is given ",list)
+for i in list:
+    if list.count(i)!=1:
+        list[list.index(i)]="N"
+
+print(list)
